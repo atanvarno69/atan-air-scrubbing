@@ -15,7 +15,6 @@ data:extend({
         resistances = { { type = "fire", percent = 70 } },
         collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
         selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-        heating_energy = "100kW",
         damaged_trigger_effect = hit_effects.entity(),
         module_slots = 0,
         allowed_effects = { "consumption", "speed" },
@@ -30,7 +29,6 @@ data:extend({
             usage_priority = "secondary-input",
             emissions_per_minute = {
                 ["pollution"] = -40,
-                ["spores"] = -40,
             },
         },
         energy_usage = "150kW",
@@ -70,7 +68,14 @@ data:extend({
                     },
                 },
             },
-            reset_animation_when_frozen = true,
         },
     },
 })
+
+if not mods["space-age"] then
+    return
+end
+
+data.raw["furnace"]["atan-air-scrubber"].heating_energy = "100kW"
+data.raw["furnace"]["atan-air-scrubber"].energy_source.emissions_per_minute["spores"] = -40
+data.raw["furnace"]["atan-air-scrubber"].graphics_set.reset_animation_when_frozen = true

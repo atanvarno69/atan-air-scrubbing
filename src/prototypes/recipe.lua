@@ -15,7 +15,6 @@ data:extend({
             { type = "item", name = "atan-air-scrubber", amount = 1 },
         },
         allow_productivity = false,
-        surface_conditions = { { property = "pressure", min = 1 } },
     },
     {
         type = "recipe",
@@ -89,15 +88,19 @@ data:extend({
         main_product = "atan-used-pollution-filter",
         allow_productivity = false,
         allow_quality = false,
-        surface_conditions = {
-            { property = "pressure", min = 1000, max = 1000 },
-        },
     },
 })
 
 if not mods["space-age"] then
     return
 end
+
+data.raw["recipe"]["atan-air-scrubber"].surface_conditions = {
+    { property = "pressure", min = 1 },
+}
+data.raw["recipe"]["atan-pollution-scrubbing"].surface_conditions = {
+    { property = "pressure", min = 1000, max = 1000 },
+}
 
 data:extend({
     {

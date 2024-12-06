@@ -1,4 +1,4 @@
-if data.raw["string-setting"]["aps-planet"] then
+if mods["any-planet-start"] then
     return
 end
 
