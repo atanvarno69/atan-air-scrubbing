@@ -1,1 +1,1 @@
-require("compatibility.quality")
+require("compatibility.quality.data-updates")

@@ -1,6 +1,6 @@
 --- @param data EventData
 local function on_build(data)
-    local entity = data.entity --[[@as LuaEntity]]
+    local entity = data.entity
     if entity.quality.level == 0 then
         return
     end
