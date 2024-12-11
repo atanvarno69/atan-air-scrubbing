@@ -4,25 +4,19 @@ Adds air scrubbing to remove pollution and spores.
 
 Technology is provided to unlock the air scrubber building and pollution filters to use with it. The air scrubber will consume 1 pollution filter and remove 40 pollution in 60 seconds. This produces a used pollution filter, which may be cleaned to recover all or most of the pollution filters and has a chance to return a filtered byproduct.
 
-### Recipes
+These recipes are provided:
 
 * By player or in assembling machine: 2 s + 5 iron gear wheel + 3 electronic circuit + 2 steel plate + 2 efficiency module → 1 air scrubber
 * By player or in assembling machine: 2 s + 2 coal [carbon with Space Age] + 1 steel plate + 1 plastic bar → 1 pollution filter
 * In air scrubber: 60 s + 1 pollution filter - 40 pollution → 1 used pollution filter
 * In chemical plant or biochamber: 20 s + 10 used pollution filter + 300 water → 8-10 pollution filter + 10% 0-3 sulfur
 
-With Space Age:
-
-* By player or in assembling machine: 2 s + 2 carbon + 1 steel plate + 1 plastic bar → 1 spore filter
-* In air scrubber: 60 s + 1 spore filter - 40 spores → 1 used spore filter
-* In chemical plant or biochamber: 20 s + 10 used spore filter + 300 water → 8-10 spore filter + 10% 0-3 spoilage
-
 ## Compatibility
 
 Compatible with:
 
 * [Quality](https://factorio.com/space-age/overview): See below.
-* [Space Age](https://factorio.com/space-age/overview): Seperate spore filters and spore scrubbing recipe for the air scrubber when placed on Gleba.
+* [Space Age](https://factorio.com/space-age/overview): See below.
 * [Any Planet Start](https://mods.factorio.com/mod/any-planet-start): Alters the tech tree to make pollution/spore scrubbing available at an appropriate point based on your starting planet.
 * [Ash](https://mods.factorio.com/mod/atan-ash): Pollution (but not spore) filter cleaning can return ash.
 
@@ -41,6 +35,16 @@ Quality air scrubbers have improved health and pollution (and spore) reduction w
 **NOTE:** In the Factoriopedia and in the mouse-over tooltips on items in your inventory, the game will show that crafting speed is affected by quality and pollution/spore reduction isn't. This is incorrect and due to limitations in the modding API forcing a janky quality implementation for air scrubbers. Actual built air scrubbers will show the correct properties.
 
 There is no benefit from higher quality pollution or spore filters.
+
+### Space Age
+
+Adds seperate spore filters and spore scrubbing recipe for the air scrubber:
+
+* By player or in assembling machine: 2 s + 2 carbon + 1 steel plate + 1 plastic bar → 1 spore filter
+* In air scrubber: 60 s + 1 spore filter - 40 spores → 1 used spore filter
+* In chemical plant or biochamber: 20 s + 10 used spore filter + 300 water → 8-10 spore filter + 10% 0-3 spoilage
+
+The pollution and spore scrubbing recipes will be available on any planet with pressure (i.e. air) and the respective emissions type. By default this is Nauvis and Gleba, but availability is extended to any planet modded to use the relevant emission type in the `data.lua` stage.
 
 ## Credits
 

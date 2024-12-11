@@ -3,6 +3,7 @@ Version: 0.2.0
 Date: 2024-12-11
   Features:
     - Janky quality support for air scrubbers.
+    - Pollution/spore scrubbing recipes available on any planet with pressure and the respective emission type.
   Info:
     - Code restructure to improve mod compatibility.
 ---------------------------------------------------------------------------------------------------

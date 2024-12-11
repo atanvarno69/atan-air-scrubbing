@@ -9,9 +9,6 @@ data.raw["recipe"]["atan-pollution-filter-cleaning"].category = "organic-or-chem
 data.raw["recipe"]["atan-air-scrubber"].surface_conditions = {
     { property = "pressure", min = 1 },
 }
-data.raw["recipe"]["atan-pollution-scrubbing"].surface_conditions = {
-    { property = "pressure", min = 1000, max = 1000 },
-}
 data:extend({
     {
         type = "recipe",
@@ -85,8 +82,5 @@ data:extend({
         main_product = "atan-used-spore-filter",
         allow_productivity = false,
         allow_quality = false,
-        surface_conditions = {
-            { property = "pressure", min = 2000, max = 2000 },
-        },
     },
 })
