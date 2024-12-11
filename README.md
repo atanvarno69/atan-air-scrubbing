@@ -21,9 +21,26 @@ With Space Age:
 
 Compatible with:
 
+* [Quality](https://factorio.com/space-age/overview): See below.
 * [Space Age](https://factorio.com/space-age/overview): Seperate spore filters and spore scrubbing recipe for the air scrubber when placed on Gleba.
 * [Any Planet Start](https://mods.factorio.com/mod/any-planet-start): Alters the tech tree to make pollution/spore scrubbing available at an appropriate point based on your starting planet.
 * [Ash](https://mods.factorio.com/mod/atan-ash): Pollution (but not spore) filter cleaning can return ash.
+
+### Quality
+
+Quality air scrubbers have improved health and pollution (and spore) reduction while operating:
+
+| Air scrubber quality                                                                                         | Health | Pollution/spore reduction |
+| ------------------------------------------------------------------------------------------------------------ | ------ | ------------------------- |
+| ![normal](https://wiki.factorio.com/images/thumb/Quality_normal.png/15px-Quality_normal.png) Normal          | 350    | −40 /m                    |
+| ![uncommon](https://wiki.factorio.com/images/thumb/Quality_normal.png/15px-Quality_uncommon.png) Uncommon    | 455    | −52 /m                    |
+| ![rare](https://wiki.factorio.com/images/thumb/Quality_normal.png/15px-Quality_rare.png) Rare                | 560    | −64 /m                    |
+| ![epic](https://wiki.factorio.com/images/thumb/Quality_normal.png/15px-Quality_epic.png) Epic                | 665    | −76 /m                    |
+| ![legendary](https://wiki.factorio.com/images/thumb/Quality_normal.png/15px-Quality_legendary.png) Legendary | 875    | −100 /m                   |
+
+**NOTE:** In the Factoriopedia and in the mouse-over tooltips on items in your inventory, the game will show that crafting speed is affected by quality and pollution/spore reduction isn't. This is incorrect and due to limitations in the modding API forcing a janky quality implementation for air scrubbers. Actual built air scrubbers will show the correct properties.
+
+There is no benefit from higher quality pollution or spore filters.
 
 ## Credits
 
