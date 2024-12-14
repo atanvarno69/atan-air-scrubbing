@@ -1,3 +1,7 @@
+if not mods["space-age"] then
+    return
+end
+
 local pollution = { property = "pressure", min = 1000, max = 1000 }
 local spores = { property = "pressure", min = 2000, max = 2000 }
 
