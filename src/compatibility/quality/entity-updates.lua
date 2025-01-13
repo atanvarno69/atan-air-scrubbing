@@ -2,8 +2,10 @@ if not mods["quality"] then
     return
 end
 
+data.raw["furnace"]["atan-air-scrubber"].placeable_by = { item = "atan-air-scrubber", count = 1, quality = "normal" }
+
 for name, quality in pairs(data.raw["quality"]) do
-    if name ~= "normal" and name ~= "quality-unknown" then
+    if name ~= "quality-unknown" then
         local air_scrubber = table.deepcopy(data.raw["furnace"]["atan-air-scrubber"])
         local modifier = 1 + (quality.level * 0.3)
         air_scrubber.name = name .. "-" .. air_scrubber.name

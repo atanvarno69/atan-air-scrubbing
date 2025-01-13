@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2025-01-14
+  Bugfixes:
+    - (Attempt to) fix unrecoverable error with quality.
+    - Add localization names and descriptions for quality entities.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2024-12-14
   Bugfixes:
