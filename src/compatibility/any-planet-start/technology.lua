@@ -2,7 +2,7 @@ if not mods["space-age"] then
     return
 end
 
-if settings.startup["aps-planet"].value == "nauvis" then
+if settings.startup["aps-planet"].value == "none" then
     data.raw["technology"]["atan-pollution-scrubbing"].prerequisites = { "space-platform", "efficiency-module" }
     table.insert(data.raw["technology"]["atan-spore-scrubbing"].prerequisites, "atan-pollution-scrubbing")
 else

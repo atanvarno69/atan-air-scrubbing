@@ -7,8 +7,8 @@ data:extend({
         type = "string-setting",
         name = "aps-planet",
         setting_type = "startup",
-        default_value = "nauvis",
-        allowed_values = { "nauvis" },
+        default_value = "none",
+        allowed_values = { "none" },
         hidden = true,
     },
 })
