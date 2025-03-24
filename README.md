@@ -53,3 +53,5 @@ Scrubber graphics from [Factorio Buildings](https://www.figma.com/proto/y1IQG08Z
 Filter and used filter graphics from [Unused Renders](https://github.com/malcolmriley/unused-renders), released under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 Sounds from [Krastorio 2](https://mods.factorio.com/mod/Krastorio2), released under the [GNU Lesser General Public License version 3 license](https://opensource.org/license/lgpl-3.0).
+
+French localization provided by [Xatrosss](https://mods.factorio.com/user/Xatrosss).
