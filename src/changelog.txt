@@ -3,6 +3,8 @@ Version: 0.2.6
 Date: 2025-11-11
   Bugfixes:
     - Prevent used filters being recycled into clean filters.
+  Features:
+    - Add [quality-se] compatibility.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.5
 Date: 2025-04-07

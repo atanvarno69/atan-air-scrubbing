@@ -8,6 +8,8 @@
     "dependencies": [
         "base >= 2.0.23",
         "? space-age >= 2.0.23",
+        "? quality",
+        "? quality-se",
         "? any-planet-start",
         "? atan-ash"
     ]
