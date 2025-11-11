@@ -27,5 +27,6 @@ data:extend({
         drop_sound = item_sounds.metal_small_inventory_move,
         stack_size = 50,
         weight = 10 * kg,
+        auto_recycle = false,
     },
 })

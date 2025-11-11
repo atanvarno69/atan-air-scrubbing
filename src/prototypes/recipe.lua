@@ -63,6 +63,7 @@ data:extend({
         },
         main_product = "atan-pollution-filter",
         allow_quality = false,
+        auto_recycle = false,
     },
     {
         type = "recipe",
@@ -88,5 +89,6 @@ data:extend({
         main_product = "atan-used-pollution-filter",
         allow_productivity = false,
         allow_quality = false,
+        auto_recycle = false,
     },
 })
