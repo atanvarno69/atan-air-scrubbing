@@ -1,4 +1,4 @@
-if not mods["quality"] then
+if not mods["quality"] and not mods["quality-se"] then
     return
 end
 
